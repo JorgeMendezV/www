@@ -1,0 +1,61 @@
+.animation {
+	display: flex;
+	flex-direction: column;
+	justify-content: safe center;
+	align-items: center;
+	width: 80%;
+}
+
+@keyframes showanimation{
+	from {
+		transform: translate(0,100px);
+		opacity: 0;
+	}
+	to {
+		transform: translate(0,100px);
+		opacity: 1;
+	}
+}
+
+.animation > div {
+	max-width: 70%;
+	width: 100%;
+}
+
+.animation > div > h2,
+.animation > div > p {
+	line-height: 35px;
+}
+
+.animation > div > h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.animation > div > p {
+	font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.animation {
+		width: 85%;
+	}
+	.animation > div {
+		font-size: 30px;
+	}
+	.animation > div > h2 {
+		font-size: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
