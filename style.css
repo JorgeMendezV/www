@@ -133,13 +133,13 @@ section {
     font-size: 2rem;
     background: none;
     color: #fff;
-    border-radius: .5rem;
+    border-radius: 3.5rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     margin-top: 1rem;
     z-index: 0;
     position: relative;
     overflow: hidden;
-    border: .2rem solid var(--main-color);
+
 }
 
 .btn::before {
@@ -148,7 +148,7 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: .5rem;
+    border-radius: 3.5rem;
     background: var(--main-color);
     height: 85%;
     width: 95%;
@@ -163,6 +163,10 @@ section {
 
 .btn:hover {
     color: var(--primary-text-color);
+}
+
+.heading:hover {
+    transform: translateY(4px);
 }
 
 .heading {
@@ -244,9 +248,16 @@ section {
     text-align: center;
 }
 
+.home .image img:hover {
+    transform: translateY(8px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .06)
+}
+
 .home .image img {
     height: 50rem;
     border-radius: 14.0rem;
+    width: 50rem;
+    clip-path: polygon(20% 0, 100% 5%, 500% 55%, 50% 100%, 0 75%, 0 25%);
 }
 
 
@@ -255,11 +266,15 @@ section {
     padding: 1rem;
 }
 
+.home .content .hello:hover {
+    transform: translateY(1px);
+}
+
 .home .content .hello {
     display: inline-block;
     padding: 1rem 0;
-    font-size: 2.6rem;
-    color: var(--secondary-text-color);
+    font-size: 2.0rem;
+    color: var(--primary-text-color);
 }
 
 .home .content .beggin {
@@ -269,14 +284,21 @@ section {
     color: var(--secondary-text-color);
 }
 
+.home .content h3:hover {
+    transform: translateX(2px);
+}
 
 .home .content h3 {
     color: var(--primary-text-color);
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .home .content h3 span {
     color: var(--main-color);
+}
+
+.home .content p:hover {
+    transform: translateY(1px);
 }
 
 .home .content p {
@@ -295,7 +317,7 @@ section {
 .about .row .box {
     flex: 1 1 40rem;
     background-color: var(--primary-bg-color);
-    border-radius: .5rem;
+    border-radius: 3.5rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     padding: .5rem 1.5rem;
     margin: 1.5rem;
@@ -335,22 +357,8 @@ section {
 
 
 
-.darken .con-patrons .ul a,
-.darken .con-patrons button {
-    background: var(--primary-text-color)
-}
-
-.darken .con-patrons .ul a img {
-    display: none
-}
-
-.darken .con-patrons .ul a .themeDarken {
-    display: auto
-}
-
 .con-patrons {
     padding: 20px;
-    z-index: 1000;
     flex-direction: column;
     position: relative
 }
@@ -386,21 +394,27 @@ section {
 }
 
 .con-patrons p {
-    font-size: .8rem;
+    color: var(--primary-text-color);
+    font-size: 1.5rem;
     opacity: .5;
     text-align: center
 }
 
+.con-patrons h5:hover {
+    transform: translateY(1px);
+}
+
 .con-patrons h5 {
     color: var(--primary-text-color);
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
 .con-patrons .ul,
 .con-patrons .ul a {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .con-patrons .ul a {
@@ -510,7 +524,7 @@ section {
 
 .about .download {
     background: var(--primary-bg-color);
-    border-radius: .5rem;
+    border-radius: 3.5rem;
     text-align: center;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     padding: 2rem;
@@ -527,7 +541,7 @@ section {
 
 .services .box-container .box {
     background: var(--primary-bg-color);
-    border-radius: .5rem;
+    border-radius: 3.5rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     margin: 1rem;
     padding: 1rem;
@@ -574,6 +588,7 @@ section {
     clip-path: circle(25% at 0 0);
     opacity: .1;
     transition: .3s;
+    border-radius: 3.5rem;
 }
 
 .services .box-container .box:hover::before {
@@ -784,7 +799,7 @@ section {
     padding: 3rem 1rem;
     background: var(--primary-bg-color);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-    border-radius: .5rem;
+    border-radius: 3.5rem;
     text-align: center;
 }
 
@@ -812,7 +827,7 @@ section {
 .footer {
     padding: 2.5rem 1rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--primary-text-color);
     background: var(--primary-bg-color);
     margin-top: 1rem;
