@@ -314,6 +314,7 @@ section {
     flex-wrap: wrap;
 }
 
+
 .about .row .box {
     flex: 1 1 40rem;
     background-color: var(--primary-bg-color);
@@ -396,7 +397,6 @@ section {
 .con-patrons p {
     color: var(--primary-text-color);
     font-size: 1.5rem;
-    opacity: .5;
     text-align: center
 }
 
@@ -574,6 +574,11 @@ section {
     font-size: 1.5rem;
     color: var(--secondary-text-color);
     padding: 1rem;
+}
+
+.services .box-container .box a {
+    font-size: 1rem;
+    color: var(--secondary-text-color);
 }
 
 .services .box-container .box::before {
