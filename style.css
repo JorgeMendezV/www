@@ -489,9 +489,6 @@ section {
     }
 }
 
-
-
-
 .about .row .box .exp-box {
     padding: 0 1.8rem;
     margin-top: 1rem;
@@ -622,15 +619,15 @@ section {
 }
 
 .portfolio .image-container .box {
-    width: 35rem;
+    width: 48rem;
     margin: 1rem;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+    /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%); */
     overflow: hidden;
-    height: 25rem;
+    height: 31rem;
     position: relative;
-    border: 1.5rem solid var(--primary-bg-color);
-    cursor: pointer;
+    /* border: 1.5rem solid var(--primary-bg-color); */
+    /* cursor: pointer; */
 }
 
 .portfolio .image-container .box img {
