@@ -621,11 +621,11 @@ section {
 
 .portfolio .image-container .box {
     width: 48rem;
-    margin: 1rem;
+    /* margin: 0.7rem; */
     border-radius: 0.5rem;
     /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%); */
     overflow: hidden;
-    height: 31rem;
+    height: 35rem;
     position: relative;
     /* border: 1.5rem solid var(--primary-bg-color); */
     /* cursor: pointer; */
