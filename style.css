@@ -828,9 +828,9 @@ section {
 }
 
 .footer {
-    padding: 2.5rem 1rem;
+    padding: 6rem 8rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.80rem;
     color: var(--primary-text-color);
     background: var(--primary-bg-color);
     margin-top: 1rem;
