@@ -122,7 +122,6 @@ body.dark-theme {
 }
 
 section {
-    min-height: 100vh;
     padding: 1rem;
     padding: 0 8%;
 }
