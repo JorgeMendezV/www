@@ -621,7 +621,7 @@ section {
 
 .portfolio .image-container .box {
     width: 48rem;
-    /* margin: 0.7rem; */
+    margin: 0.9rem; 
     border-radius: 0.5rem;
     /* box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%); */
     overflow: hidden;
