@@ -534,6 +534,11 @@ section contact {
     margin: 1rem;
 }
 
+section .services {
+    min-height: 10vh;
+    padding: 1rem;
+    padding: 0 8%;
+}
 
 .services .box-container {
     display: flex;
